@@ -17,7 +17,7 @@ test('service worker caches shell, resumes interrupted download and serves compl
  online=false;
  async function offlineGet(path,mode='cors'){let result;events.fetch({request:{url:scope+path,method:'GET',mode},respondWith(p){result=p;}});return result;}
  const bankResponse=await offlineGet('data/bank.json');const bank=await bankResponse.json();assert.equal(bank.questions.length,961);assert.equal(bank.chapters.length,14);
- const semanticResponse=await offlineGet('data/keywords-semantic.json');const semantic=await semanticResponse.json();assert.equal(semantic.reviewedQuestionIds.length,77);assert.equal(semantic.sourceSha256,bank.meta.sha256);
+ const semanticResponse=await offlineGet('data/keywords-semantic.json');const semantic=await semanticResponse.json();assert.equal(semantic.reviewedQuestionIds.length,961);assert.equal(semantic.sourceSha256,bank.meta.sha256);
  const image=await offlineGet('data/images/p021-00.png');assert((await image.arrayBuffer()).byteLength>100);
  const pdf=await offlineGet('data/source.pdf');assert((await pdf.arrayBuffer()).byteLength>4_000_000);
  const page=await offlineGet('data/pages/262.webp');assert((await page.arrayBuffer()).byteLength>100);

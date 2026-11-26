@@ -7,6 +7,6 @@ export function KeywordSourceSwitch({source,onChange,reviewed,total}:{source:Key
    <button type="button" aria-pressed={source==='algorithm'} onClick={()=>onChange('algorithm')}>Алгоритм</button>
    <button type="button" aria-pressed={source==='semantic'} onClick={()=>onChange('semantic')}>Смысловой разбор</button>
   </div>
-  <p className="keyword-source-description">{source==='algorithm'?'Автоматический подбор по различиям слов.':`Разобрано по смыслу: ${reviewed} из ${total}. Первый раздел — целиком. В остальных разделах этого набора пока нет.`}</p>
+  <p className="keyword-source-description">{source==='algorithm'?'Автоматический подбор по различиям слов.':`Разобрано по смыслу: ${reviewed} из ${total}. ${reviewed===total?'Все 14 разделов.':'Неподготовленные вопросы показываются без смысловых подсказок.'}`}</p>
  </section>;
 }
