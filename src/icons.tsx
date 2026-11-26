@@ -1,0 +1,11 @@
+import type { CSSProperties } from 'react';
+type Props = {
+    size?: number;
+    className?: string;
+    style?: CSSProperties;
+};
+const paths: Record<string, string[]> = {
+    ArrowRight: ['M5 12h14', 'm12 5 7 7-7 7'], BookOpen: ['M12 7v14', 'M3 3h5c2 0 4 1 4 3 0-2 2-3 4-3h5v16h-5c-2 0-4 1-4 2-1-1-2-2-4-2H3Z'], Check: ['m5 12 4 4L19 6'], CheckCheck: ['m3 12 4 4L17 6', 'm12 16 9-10'], ChevronLeft: ['m15 18-6-6 6-6'], ChevronRight: ['m9 18 6-6-6-6'], Download: ['M12 3v12', 'm7 10 5 5 5-5', 'M4 16v5h16v-5'], Flag: ['M5 21V3', 'M5 3c4-3 9 3 14 0v11c-5 3-10-3-14 0'], GraduationCap: ['m2 8 10-5 10 5-10 5Z', 'M6 10v7c3 4 9 4 12 0v-7', 'M22 8v8'], LayoutGrid: ['M3 3h7v7H3Z', 'M14 3h7v7h-7Z', 'M3 14h7v7H3Z', 'M14 14h7v7h-7Z'], ListChecks: ['m3 6 2 2 3-4', 'M11 6h10', 'm3 15 2 2 3-4', 'M11 15h10'], Menu: ['M3 6h18', 'M3 12h18', 'M3 18h18'], Search: ['M21 21l-5-5', 'M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0'], ShieldCheck: ['M12 2 3 6v6c0 5 5 8 9 10 4-2 9-5 9-10V6Z', 'm8 12 3 3 5-6'], Shuffle: ['M3 5h3c5 0 7 14 12 14h3', 'm18 16 3 3-3 3', 'M3 19h3c2 0 3-2 4-4', 'M14 9c1-2 2-4 4-4h3', 'm18 2 3 3-3 3'], Sparkles: ['m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z', 'M20 2v4', 'M18 4h4'], Target: ['M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0', 'M18 12a6 6 0 1 1-12 0 6 6 0 0 1 12 0', 'M14 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0'], WifiOff: ['m2 2 20 20', 'M2 8c2-2 4-3 6-3', 'M12 4c4 0 7 2 10 4', 'M5 12c2-2 4-3 7-3', 'M9 16c2-2 4-2 6 0', 'M12 20h.01'], X: ['m6 6 12 12', 'M18 6 6 18']
+};
+const make = (name: string) => ({ size = 24, ...props }: Props) => <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>{paths[name].map((d, i) => <path key={i} d={d}/>)}</svg>;
+export const ArrowRight = make('ArrowRight'), BookOpen = make('BookOpen'), Check = make('Check'), CheckCheck = make('CheckCheck'), ChevronLeft = make('ChevronLeft'), ChevronRight = make('ChevronRight'), Download = make('Download'), Flag = make('Flag'), GraduationCap = make('GraduationCap'), LayoutGrid = make('LayoutGrid'), ListChecks = make('ListChecks'), Menu = make('Menu'), Search = make('Search'), ShieldCheck = make('ShieldCheck'), Shuffle = make('Shuffle'), Sparkles = make('Sparkles'), Target = make('Target'), WifiOff = make('WifiOff'), X = make('X');

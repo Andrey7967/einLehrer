@@ -1,0 +1,42 @@
+import {JSDOM,VirtualConsole} from 'jsdom';
+import {build} from 'esbuild';
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+const bank=JSON.parse(readFileSync('public/data/bank.json','utf8')),keywords=JSON.parse(readFileSync('public/data/keywords.json','utf8'));
+const semantic=JSON.parse(readFileSync('public/data/keywords-semantic.json','utf8'));
+const renderer=await build({entryPoints:['src/SourceContent.tsx'],bundle:true,write:false,format:'cjs',platform:'node',jsx:'automatic',packages:'external'});
+const rendererModule={exports:{}};new Function('require','module','exports',renderer.outputFiles[0].text)(createRequire(import.meta.url),rendererModule,rendererModule.exports);
+const contents=bank.questions.flatMap(q=>[q,...q.answers]);
+for(const annotations of [keywords,semantic.annotations])for(const highlight of [false,true]){
+ const html=contents.map(content=>renderToStaticMarkup(React.createElement(rendererModule.exports.SourceContent,{content,highlight,annotation:annotations[content.id],dataBase:'/data/'}))).join('');
+ const doc=new JSDOM(html);const nodes=[...doc.window.document.querySelectorAll('.source-content')];assert.equal(nodes.length,contents.length);
+ nodes.forEach((node,i)=>assert.equal(node.textContent,contents[i].text,`Source mutated: ${contents[i].id}, highlight=${highlight}`));doc.window.close();
+}
+console.log(`PASS: every rendered character in all ${contents.length} questions/answers exactly matches bank with highlights ON and OFF`);
+const output=await build({entryPoints:['src/main.tsx'],bundle:true,write:false,format:'iife',platform:'browser',jsx:'automatic',loader:{'.css':'empty'},define:{'import.meta.env.BASE_URL':'"/"','import.meta.env.PROD':'false','import.meta.env.DEV':'true','process.env.NODE_ENV':'"production"'}});
+const errors=[];const virtualConsole=new VirtualConsole();virtualConsole.on('jsdomError',e=>errors.push(String(e)));
+const dom=new JSDOM('<!doctype html><html><body><div id="root"></div></body></html>',{url:'http://localhost:4173',runScripts:'outside-only',pretendToBeVisual:true,virtualConsole});const w=dom.window;w.scrollTo=()=>{};w.fetch=async path=>({ok:true,json:async()=>String(path).endsWith('bank.json')?bank:String(path).endsWith('keywords-semantic.json')?semantic:keywords});w.eval(output.outputFiles[0].text);
+const delay=ms=>new Promise(r=>setTimeout(r,ms));
+async function until(fn,label){for(let i=0;i<100;i++){if(fn())return;await delay(20);}throw Error('Timeout: '+label);}
+const $$=s=>[...w.document.querySelectorAll(s)];
+const text=e=>e.textContent.replace(/\s+/g,' ').trim();
+async function click(label,selector='button'){const e=$$(selector).find(e=>text(e)===label);assert(e,'Missing '+label);assert(!e.disabled,'Disabled '+label);e.click();await delay(30);}
+async function clickChoice(index){const e=$$('.choice-hit')[index];assert(e&&!e.disabled);e.click();await delay(30);}
+await until(()=>$$('h1').length,'bank load');assert.equal($$('.mode-card').length,3);
+await click('Начать марафон');await clickChoice(bank.questions[0].answers.findIndex(a=>!a.correct));assert($$('.failure').length);assert.equal($$('.choice.correct').length,1);assert($$('.choice.correct mark').length);await delay(1200);assert($$('.question-meta').some(e=>text(e).includes('ВОПРОС 1')));await click('Далее');await clickChoice(bank.questions[1].answers.findIndex(a=>a.correct));assert($$('.success').length);await until(()=>$$('.question-meta').some(e=>text(e).includes('ВОПРОС 3')),'auto advance');console.log('PASS: wrong-answer hold, correct-answer keywords and automatic next');
+await click('Продолжить позже');await click('Продолжить марафон');assert($$('.question-meta').some(e=>text(e).includes('ВОПРОС 3')));console.log('PASS: resume session');
+await click('Продолжить позже');$$('.mode-card')[0].click();await delay(50);const before=$$('.study-card h3')[0].textContent;const toggle=$$('.toggle input')[0];toggle.click();await delay(30);assert.equal($$('.study-card h3')[0].textContent,before);assert.equal($$('.study-card h3 mark').length,0);toggle.click();await delay(30);assert.equal($$('.study-card h3')[0].textContent,before);assert($$('.study-card h3 mark').length);await click('Ключевые слова');await click('Убрать всё');assert.equal(JSON.parse(w.localStorage.getItem('keyword-overrides'))['c1-q1'].ranges.length,0);w.document.querySelector('.modal-close').click();await delay(30);assert.equal($$('.study-card h3')[0].textContent,before);console.log('PASS: keyword toggle/edit never mutate original question');
+await click('Сверить с PDF');const checkbox=w.document.querySelector('.toolbar input[type=checkbox]');checkbox.click();await delay(30);assert(JSON.parse(w.localStorage.getItem('source-reviews'))['c1-q1'].checked);assert.equal($$('.source-pages img').length,1);console.log('PASS: source preview mapping and persisted review');
+await click('Обзор');$$('.mode-card')[1].click();await delay(30);let s=JSON.parse(w.localStorage.getItem('session'));assert.equal(s.ids.length,14);assert.equal(new Set(s.ids.map(id=>bank.questions.find(q=>q.id===id).chapterId)).size,14);
+for(let i=0;i<14;i++){s=JSON.parse(w.localStorage.getItem('session'));const q=bank.questions.find(q=>q.id===s.ids[s.index]);await clickChoice(q.answers.findIndex(a=>a.correct));await click(i===13?'Результат':'Далее');}assert(text(w.document.querySelector('.result-hero')).includes('14 из 14'));console.log('PASS: full 14-chapter exam, manual advance cancels timer and score 14/14');
+await click('На главную');$$('.nav-item').find(e=>text(e).startsWith('Разделы')).click();await delay(30);assert.equal($$('.chapter-card').length,14);$$('.chapter-card .button')[1].click();await delay(30);s=JSON.parse(w.localStorage.getItem('session'));assert.equal(s.mode,'chapter');assert.equal(new Set(s.ids.map(id=>bank.questions.find(q=>q.id===id).chapterId)).size,1);assert.equal(s.ids.length,bank.chapters[0].count);console.log('PASS: chapter test includes only its own questions');
+const sessionBeforeSwitch=w.localStorage.getItem('session');await click('Смысловой разбор');assert.equal(w.localStorage.getItem('keyword-source'),'"semantic"');assert.equal(w.localStorage.getItem('session'),sessionBeforeSwitch);assert.equal($$('.semantic-note').length,0,'Answer rationale must not leak before answering');
+assert($$('.keyword-source-description').some(e=>text(e).includes('77 из 961')));const active=JSON.parse(sessionBeforeSwitch);const activeQ=bank.questions.find(q=>q.id===active.ids[active.index]);assert.equal($$('.question-title .source-content')[0].textContent,activeQ.text);assert.deepEqual($$('.question-title mark').map(e=>e.textContent),semantic.annotations[activeQ.id].ranges.map(r=>r.text));
+await click('Алгоритм');assert.equal(w.localStorage.getItem('session'),sessionBeforeSwitch);await click('Смысловой разбор');await clickChoice(activeQ.answers.findIndex(a=>!a.correct));assert.equal($$('.semantic-note').length,1);assert(text($$('.semantic-note')[0]).includes(semantic.notes[activeQ.id].replace(/\s+/g,' ')));assert.deepEqual($$('.choice.correct mark').map(e=>e.textContent),semantic.annotations[activeQ.answers.find(a=>a.correct).id].ranges.map(r=>r.text));
+console.log('PASS: source switching preserves progress, selects actual semantic ranges and reveals rationale only after answer');
+await click('Ключевые слова');await click('Убрать всё');assert.equal(JSON.parse(w.localStorage.getItem('keyword-overrides-semantic'))[activeQ.id].ranges.length,0);w.document.querySelector('.modal-close').click();await delay(30);await click('Алгоритм');assert(w.localStorage.getItem('keyword-overrides'),'Algorithm edits preserved independently');console.log('PASS: manual edits are isolated by source');
+await click('Обзор');$$('.mode-card')[0].click();await delay(30);await click('Смысловой разбор');const select=$$('select')[0];select.value='2';select.dispatchEvent(new w.Event('change',{bubbles:true}));await delay(30);assert.equal($$('.study-card h3 mark').length,0);assert.equal($$('.study-answer mark').length,0);assert.equal($$('.semantic-note').length,0);assert($$('.semantic-unavailable').length>0);console.log('PASS: unreviewed chapters never fall back to algorithmic annotations');
+assert.deepEqual(errors,[]);console.log('PASS: no uncaught DOM rendering errors');dom.window.close();

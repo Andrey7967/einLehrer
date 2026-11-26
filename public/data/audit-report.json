@@ -1,0 +1,15 @@
+{
+  "sourceSha256": "a32ee3a6504a6cc0d4d7b1ce64f5f837ecff19126b3e7bb3f0f4dd5fc7cc8915",
+  "questions": 961,
+  "checkedAnswers": 4143,
+  "checkedTextLines": 7206,
+  "checkedImages": 78,
+  "checks": [
+    "Every text block exactly matches source line and bounding box",
+    "No source content lines omitted or duplicated; only chapter headings excluded",
+    "Every correct-answer flag matches source green characters",
+    "Every image has a matching source image bounding box"
+  ],
+  "issues": [],
+  "visualReview": "Not a complete manual visual review. Source pages are available in the app."
+}

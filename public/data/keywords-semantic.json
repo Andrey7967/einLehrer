@@ -1,0 +1,2199 @@
+{
+  "version": 1,
+  "sourceSha256": "a32ee3a6504a6cc0d4d7b1ce64f5f837ecff19126b3e7bb3f0f4dd5fc7cc8915",
+  "method": "authored-contrastive-analysis",
+  "reviewedQuestionIds": [
+    "c1-q1",
+    "c1-q2",
+    "c1-q3",
+    "c1-q4",
+    "c1-q5",
+    "c1-q6",
+    "c1-q7",
+    "c1-q8",
+    "c1-q9",
+    "c1-q10",
+    "c1-q11",
+    "c1-q12",
+    "c1-q13",
+    "c1-q14",
+    "c1-q15",
+    "c1-q16",
+    "c1-q17",
+    "c1-q18",
+    "c1-q19",
+    "c1-q20",
+    "c1-q21",
+    "c1-q22",
+    "c1-q23",
+    "c1-q24",
+    "c1-q25",
+    "c1-q26",
+    "c1-q27",
+    "c1-q28",
+    "c1-q29",
+    "c1-q30",
+    "c1-q31",
+    "c1-q32",
+    "c1-q33",
+    "c1-q34",
+    "c1-q35",
+    "c1-q36",
+    "c1-q37",
+    "c1-q38",
+    "c1-q39",
+    "c1-q40",
+    "c1-q41",
+    "c1-q42",
+    "c1-q43",
+    "c1-q44",
+    "c1-q45",
+    "c1-q46",
+    "c1-q47",
+    "c1-q48",
+    "c1-q49",
+    "c1-q50",
+    "c1-q51",
+    "c1-q52",
+    "c1-q53",
+    "c1-q54",
+    "c1-q55",
+    "c1-q56",
+    "c1-q57",
+    "c1-q58",
+    "c1-q59",
+    "c1-q60",
+    "c1-q61",
+    "c1-q62",
+    "c1-q63",
+    "c1-q64",
+    "c1-q65",
+    "c1-q66",
+    "c1-q67",
+    "c1-q68",
+    "c1-q69",
+    "c1-q70",
+    "c1-q71",
+    "c1-q72",
+    "c1-q73",
+    "c1-q74",
+    "c1-q75",
+    "c1-q76",
+    "c1-q77"
+  ],
+  "annotations": {
+    "c1-q1": {
+      "sha256": "8cb81f3316743a742b4a507346f3f08c091a773b9b10ec621c01b5852a03813d",
+      "ranges": [
+        {
+          "start": 47,
+          "end": 58,
+          "text": "Серии кодов"
+        },
+        {
+          "start": 82,
+          "end": 92,
+          "text": "Справочник"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q1-a5": {
+      "sha256": "86f486491de9ab87ae478270b0fc42e9eb894ad3112d59c59a3fe632bf4545b6",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 29,
+          "text": "Верны все указанные ответы"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q2": {
+      "sha256": "245333b5ad0b74a84974b26d3fc3dd5f0d07dd4f358f495d0ce213da5da12e42",
+      "ranges": [
+        {
+          "start": 32,
+          "end": 57,
+          "text": "редактирование информации"
+        },
+        {
+          "start": 58,
+          "end": 71,
+          "text": "пользователем"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q2-a4": {
+      "sha256": "e6420e8bdebe373338d424ab7877607aa75522e505ec284b8b36924e7f7be362",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 16,
+          "text": "Форма объекта"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q3": {
+      "sha256": "a10c7163baf5b1a65f23bc1c4063e7a3719bef23c28b0a9759e3809791931c63",
+      "ranges": [
+        {
+          "start": 49,
+          "end": 67,
+          "text": "с учетом синонимов"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q3-a1": {
+      "sha256": "e116fae4ba09ef4f2219e732d19e1f475de313aa08dec0d07182038b944fd9b3",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 8,
+          "text": "!алый"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q4": {
+      "sha256": "c57f8b146af002e8aa22ab7dbd420658bb38c505f467eb9ec68cd8fd2f992a37",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 20,
+          "text": "Внешние обработки"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q4-a6": {
+      "sha256": "c38cf643ddec9e94ade956fc0b6332538c394f0b2e4f800517c901aeeae1dde4",
+      "ranges": [
+        {
+          "start": 12,
+          "end": 21,
+          "text": "1 и/или 4"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q5": {
+      "sha256": "b804cbbaf133cc51824a8ed8975bb965f13b5d861f1505caa8906a50e9d03a33",
+      "ranges": [
+        {
+          "start": 37,
+          "end": 53,
+          "text": "Сущность системы"
+        },
+        {
+          "start": 58,
+          "end": 67,
+          "text": "тип файла"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q5-a1": {
+      "sha256": "e214d82d099a57ffa51a82b7a23b6bca496f479aea4dfc2443e32758583b295b",
+      "ranges": [
+        {
+          "start": 23,
+          "end": 26,
+          "text": "epf"
+        },
+        {
+          "start": 46,
+          "end": 49,
+          "text": "erf"
+        },
+        {
+          "start": 68,
+          "end": 70,
+          "text": "сf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q6": {
+      "sha256": "4b4d60ca231dfb9ac71eddeb130a9544244edccfc21ceb49dc7b49ddebb83238",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 20,
+          "text": "Внешняя обработка"
+        },
+        {
+          "start": 32,
+          "end": 62,
+          "text": "включена в состав конфигурации"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q6-a3": {
+      "sha256": "6c494cddf4140f238adcd24f13aee5d1a6c9c3468019dfca33b46035ff4bb12a",
+      "ranges": [
+        {
+          "start": 12,
+          "end": 17,
+          "text": "1 и 2"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q7": {
+      "sha256": "0f1f0bc1c32cf23b6285ee54d7e040999b3d579e203f0e1a9d400156fe8c721d",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 16,
+          "text": "Внешний отчет"
+        },
+        {
+          "start": 28,
+          "end": 57,
+          "text": "включен в состав конфигурации"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q7-a4": {
+      "sha256": "f9fad1a6a452f7fbee01291e4ed6e92080e3878ac93083224e3910bbabe901bd",
+      "ranges": [
+        {
+          "start": 12,
+          "end": 17,
+          "text": "1 и 2"
+        },
+        {
+          "start": 22,
+          "end": 54,
+          "text": "возможна потеря функциональности"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q8": {
+      "sha256": "c234775d55a8c00338bdbdb30c560bb48ba63d82a89e3e42fdd38ed77550758d",
+      "ranges": [
+        {
+          "start": 20,
+          "end": 48,
+          "text": "структура, прикладная логика"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q8-a1": {
+      "sha256": "de4124d41ca7fb7c3f8acf7f14e02fe31ee8e8d9ef76f259af6745a2aa694e23",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 15,
+          "text": "Конфигурация"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q9": {
+      "sha256": "23cf3aa950eab4ddc79a3e3200d4d7e971005beaa7d259b544c7f5557d04f82b",
+      "ranges": [
+        {
+          "start": 7,
+          "end": 30,
+          "text": "хранятся учетные данные"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q9-a3": {
+      "sha256": "f552ebb6fcaacb67bf29896d7b9bb709a1f3acc6d9065490f4bb747ff6adc596",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 22,
+          "text": "Информационная база"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q10": {
+      "sha256": "26974fdfc85c412dea390bb3e2631dfe0c1b84d08ea03a525a82224e0bffd8b3",
+      "ranges": [
+        {
+          "start": 37,
+          "end": 49,
+          "text": "обычных форм"
+        },
+        {
+          "start": 66,
+          "end": 82,
+          "text": "табличных частей"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q10-a4": {
+      "sha256": "fc73156d615fc546901b0ba30954aeab73895ef7bd10ac37e5acd09b541d7b10",
+      "ranges": [
+        {
+          "start": 14,
+          "end": 44,
+          "text": "создать объект критерии отбора"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q11": {
+      "sha256": "ffdfc80dd463dad1af8087d17d60b6b6db3e0a206b7bd708d7e077a64dc7e758",
+      "ranges": [
+        {
+          "start": 37,
+          "end": 53,
+          "text": "управляемых форм"
+        },
+        {
+          "start": 70,
+          "end": 86,
+          "text": "табличных частей"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q11-a1": {
+      "sha256": "0b252f75cf9afe31c0c467803d4ab288bad8642e08fe6025bbef985ac261b048",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 43,
+          "text": "ничего дополнительно настраивать не надо"
+        },
+        {
+          "start": 61,
+          "end": 80,
+          "text": "на уровне\nплатформы"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q12": {
+      "sha256": "aea6a3d7df55c0728a94b4146e859b4ecbe0ad376f5f8971be23c1c8f45540d1",
+      "ranges": [
+        {
+          "start": 18,
+          "end": 34,
+          "text": "языка интерфейса"
+        },
+        {
+          "start": 55,
+          "end": 67,
+          "text": "пользователю"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q12-a2": {
+      "sha256": "d11bcaa74e507e360017b410a4f4c1857b0383896d38288613aa765f3fbb72dc",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 28,
+          "text": "в настройках пользователя"
+        },
+        {
+          "start": 93,
+          "end": 117,
+          "text": "ветви метаданных \"Языки\""
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q13": {
+      "sha256": "efcb97554d508a84d6ca4db64363636954b43e80f8bf05dbd507a21123526634",
+      "ranges": [
+        {
+          "start": 8,
+          "end": 15,
+          "text": "запрета"
+        },
+        {
+          "start": 23,
+          "end": 49,
+          "text": "непосредственного удаления"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q13-a3": {
+      "sha256": "025146c2114daee2ca8a227fa5bec4870eba5a506f5082f533fa2abc08ef6c8d",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 23,
+          "text": "при определении роли"
+        },
+        {
+          "start": 76,
+          "end": 98,
+          "text": "Интерактивное удаление"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q14": {
+      "sha256": "5380cce3380fb2a6893afdeaa27fd1bd1ba5c91bd7b8b0de1002e2e6d12cacdf",
+      "ranges": [
+        {
+          "start": 35,
+          "end": 55,
+          "text": "сетевые ключи защиты"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q14-a5": {
+      "sha256": "247488001fd7e68ae60019583841e1385b8109617a5c459b408c0b7ad778a8fb",
+      "ranges": [
+        {
+          "start": 20,
+          "end": 25,
+          "text": "1 и 2"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q15": {
+      "sha256": "e2134cdaeff2b7ad1148eec45c2dfbf4ca8920551ad93969f7b45805e12e0ef0",
+      "ranges": [
+        {
+          "start": 50,
+          "end": 75,
+          "text": "предопределенных\nзначений"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q15-a5": {
+      "sha256": "0c5e9b3b1ad9bb21bb34ca6e3a9d4576b5b8dcd7cc328e7770e384d01414da7d",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 14,
+          "text": "Справочники"
+        },
+        {
+          "start": 16,
+          "end": 76,
+          "text": "планы видов характеристик, планы счетов, планы видов\nрасчета"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q16": {
+      "sha256": "069d2ebf3366d0b92ba0fb51dc5db9423f272e46e36d44f1bd08f27d3187e929",
+      "ranges": [
+        {
+          "start": 42,
+          "end": 56,
+          "text": "Толстый клиент"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q16-a5": {
+      "sha256": "0585464e4a555bd236002d53ba183f6a0745fcc73cf02914505a745f16bae92e",
+      "ranges": [
+        {
+          "start": 9,
+          "end": 21,
+          "text": "все варианты"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q17": {
+      "sha256": "e8840fee61e229250b7ec2975170c778facd24c37c27465f8b058a64dd6b73c3",
+      "ranges": [
+        {
+          "start": 42,
+          "end": 55,
+          "text": "Тонкий клиент"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q17-a4": {
+      "sha256": "7fd20582af490a02c1b6ce19ebcca9e08abdc8b8f08d32b9c334ca714b505ca4",
+      "ranges": [
+        {
+          "start": 18,
+          "end": 23,
+          "text": "1 и 2"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q18": {
+      "sha256": "892d633c44c380e1a74387ae521ff21b9f66e00465e283f9a4a7e407ffc371ae",
+      "ranges": [
+        {
+          "start": 27,
+          "end": 55,
+          "text": "табличные части справочников"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q18-a2": {
+      "sha256": "1dce8daae96e0024d6678abaf69dccf09fc0da48a94505075f2f1763e37be782",
+      "ranges": [
+        {
+          "start": 16,
+          "end": 37,
+          "text": "подчиненных сущностей"
+        },
+        {
+          "start": 39,
+          "end": 67,
+          "text": "не имеющих объектной природы"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q19": {
+      "sha256": "25793c1dd052a27962443374f12927c72d11319db0415c1d3a6c562d0f9efb8d",
+      "ranges": [
+        {
+          "start": 8,
+          "end": 24,
+          "text": "нечеткого поиска"
+        },
+        {
+          "start": 33,
+          "end": 48,
+          "text": "с одной ошибкой"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q19-a2": {
+      "sha256": "bd9799d1224d1b21e5b91f5904319a9694b1089f430036abdae7f020ff09c129",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 11,
+          "text": "~манолит"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q20": {
+      "sha256": "3a00065ef321c0d3946db104f20ad3ccca74f00d31a0f53bfc0eb182069ae774",
+      "ranges": [
+        {
+          "start": 31,
+          "end": 45,
+          "text": "Бизнес-процесс"
+        },
+        {
+          "start": 50,
+          "end": 56,
+          "text": "Задача"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q20-a3": {
+      "sha256": "85db169d13d760245d916c71a90119b892cf66ef8dc1f0271787025f7dc1f5d8",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 16,
+          "text": "Каждая Задача"
+        },
+        {
+          "start": 38,
+          "end": 67,
+          "text": "в нескольких Бизнес-процессах"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q21": {
+      "sha256": "7e96a187e0462b5e457148f1a7808780bb536c8c37550884ef70c030d315e08d",
+      "ranges": [
+        {
+          "start": 75,
+          "end": 101,
+          "text": "разных операционных систем"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q21-a3": {
+      "sha256": "1cf728dc0e7490c28798156ad0d326d97566e5930b8ace5e5a146c4489e899cc",
+      "ranges": [
+        {
+          "start": 5,
+          "end": 11,
+          "text": "MS SQL"
+        },
+        {
+          "start": 69,
+          "end": 96,
+          "text": "операционных систем Windows"
+        },
+        {
+          "start": 113,
+          "end": 151,
+          "text": "как из-под Windows, так и\nиз-под Linux"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q22": {
+      "sha256": "3060aff2b75f6c17c9732d3b9745751a2af636ab496a8851e694fd9eb6206175",
+      "ranges": [
+        {
+          "start": 20,
+          "end": 41,
+          "text": "основная конфигурация"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q22-a1": {
+      "sha256": "2bff5e73e935ef347a8c1bb8e7abcb9d1a3e04a08dbb038238d7d19adbf0b2e6",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 23,
+          "text": "Объекты конфигурации"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q23": {
+      "sha256": "3a71aef3248617af3f4208b06042443b54605598c81bb403860863ce2fa9f5db",
+      "ranges": [
+        {
+          "start": 24,
+          "end": 54,
+          "text": "список пользователей на группы"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q23-a3": {
+      "sha256": "a05f27965934d5f0c97d79b92e9c524b03cdc8f71a0f3a231768b0806e176feb",
+      "ranges": [
+        {
+          "start": 36,
+          "end": 62,
+          "text": "с помощью общих реквизитов"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q24": {
+      "sha256": "ce69932a6348a7f45fb57e2a5445cba4363896703a68c0fce8d1d17dc3e08129",
+      "ranges": [
+        {
+          "start": 27,
+          "end": 59,
+          "text": "нумерации документов по филиалам"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q24-a3": {
+      "sha256": "0404f8376494155d0fe57218c065b6c9377c2df0a2a95676d383569afd7aed9a",
+      "ranges": [
+        {
+          "start": 12,
+          "end": 21,
+          "text": "1 и/или 2"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q25": {
+      "sha256": "03f9e42431bf1ef0ac05366b70d9831ee2683a11de5d3e71c9c69753e5650b36",
+      "ranges": [
+        {
+          "start": 10,
+          "end": 29,
+          "text": "варианты подчинения"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q25-a6": {
+      "sha256": "e2c48a2bb3a44b4e75e0c4b8b8ae74b4e527968ad40f06463a00445fe473adfd",
+      "ranges": [
+        {
+          "start": 9,
+          "end": 29,
+          "text": "все указанные ответы"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q26": {
+      "sha256": "84152a44839be8530efab04adfca31cdca5d76979dc626b799a80c1484432cc7",
+      "ranges": [
+        {
+          "start": 23,
+          "end": 51,
+          "text": "создать в справочнике группу"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q26-a2": {
+      "sha256": "3e45eb00398ca18a6466ae7d9ef50726904cacfa01bbe64656ff49c09061918f",
+      "ranges": [
+        {
+          "start": 60,
+          "end": 86,
+          "text": "Иерархия\nгрупп и элементов"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q27": {
+      "sha256": "ff6ce2403c2c6090ee4f5c888601c51b67b0c9b7f35aefed0dbce01d6b807077",
+      "ranges": [
+        {
+          "start": 21,
+          "end": 37,
+          "text": "типовой поставки"
+        },
+        {
+          "start": 74,
+          "end": 91,
+          "text": "аппаратным ключом"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q27-a4": {
+      "sha256": "ddf9cffbf6a12af5f895d8c1c75e225a5c8dd2807e69365ea46494bdaa199eff",
+      "ranges": [
+        {
+          "start": 12,
+          "end": 17,
+          "text": "1 и 3"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q28": {
+      "sha256": "ec939ff935ba33cbc3ac7cdf9c7ff89739240b21b0594233a5333e345afa379d",
+      "ranges": [
+        {
+          "start": 35,
+          "end": 53,
+          "text": "описании алгоритма"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q28-a2": {
+      "sha256": "4a0afd55f53d9c4a1468226e222d39280fddaabf81b85f1cc1c2c032adfd426a",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 28,
+          "text": "Объекты встроенного языка"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q29": {
+      "sha256": "c2be8bbac3d0d6367ac3dbbe9274e6d51ddd7e06f6a9d8f6c952309f2bc8d475",
+      "ranges": [
+        {
+          "start": 62,
+          "end": 99,
+          "text": "Граница\nпоследовательности документов"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q29-a1": {
+      "sha256": "f0232581ab7285b6b6949f5839fa93caeefcdd058a89033939cdc16e8fecc4c0",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 19,
+          "text": "Моментом времени"
+        },
+        {
+          "start": 40,
+          "end": 84,
+          "text": "перепроведение документов\nпоследовательности"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q30": {
+      "sha256": "5b4c5ddef335dfb78936e1048e8c8537e4c8750ad4004b47d3b0ef5087a9d153",
+      "ranges": [
+        {
+          "start": 21,
+          "end": 39,
+          "text": "тип данных ресурса"
+        },
+        {
+          "start": 42,
+          "end": 59,
+          "text": "регистра сведений"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q30-a5": {
+      "sha256": "900b5cbe3325c330979eafbbdfdc3ca2141ae106dbb6075be0f43df385bd8f4f",
+      "ranges": [
+        {
+          "start": 9,
+          "end": 33,
+          "text": "все перечисленные ответы"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q31": {
+      "sha256": "0d6f8e627dc8e58afaa6b60a6bae17cd171d3452461404be80328328968de13b",
+      "ranges": [
+        {
+          "start": 16,
+          "end": 38,
+          "text": "клиентского приложения"
+        },
+        {
+          "start": 39,
+          "end": 52,
+          "text": "не существует"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q31-a6": {
+      "sha256": "6e6fd1fc8db64514982dc297511786c064f33721fea9877fe03ad328d9f33237",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 36,
+          "text": "Существуют все перечисленные виды"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q32": {
+      "sha256": "b19f04a06098262b2e4d4322bb85234625de69de02e9d35c91e6804ae6dd71a8",
+      "ranges": [
+        {
+          "start": 10,
+          "end": 50,
+          "text": "максимальное количество видов документов"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q32-a1": {
+      "sha256": "16e6ba084fc4c634c0524dcc5d741addfc088a978f04b045c690925477949b09",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 17,
+          "text": "Неограниченное"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q33": {
+      "sha256": "032134606e4c5e615bff7b8292907752cc778a2d8b5c512a5584c57e1c2a845d",
+      "ranges": [
+        {
+          "start": 10,
+          "end": 54,
+          "text": "максимальное количество реквизитов документа"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q33-a1": {
+      "sha256": "45f57e0595811fabbecc4b271abd2461c60bc031141c8818edcaa76b97248dea",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 48,
+          "text": "Количество реквизитов документа не ограничено"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q34": {
+      "sha256": "5c7381895e42eb7f5b8a89ba2d69e3ae3d150ef23633061d5e39f90c0a3fe595",
+      "ranges": [
+        {
+          "start": 10,
+          "end": 60,
+          "text": "максимальное количество табличных частей документа"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q34-a1": {
+      "sha256": "3fa711a3d0d061a0291c38af2f29815e2d68840df68c5c9b1e4b9840163ba0c0",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 54,
+          "text": "Количество табличных частей документа не ограничено"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q35": {
+      "sha256": "59b8c9e1c2478fa8e280e72c9dc7b81af0b83e6e27e6179c3b36e591558e7884",
+      "ranges": [
+        {
+          "start": 29,
+          "end": 50,
+          "text": "изменять интерактивно"
+        },
+        {
+          "start": 53,
+          "end": 66,
+          "text": "конфигураторе"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q35-a1": {
+      "sha256": "27477958c5e09c5710c695e6b1c41caa37a7b61151245ead1547b7794778bff4",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 24,
+          "text": "Основная конфигурация"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q36": {
+      "sha256": "827dd2df76f455d75bdbced06215502f7a80160c6ffbb5013f7a03c89282a200",
+      "ranges": [
+        {
+          "start": 4,
+          "end": 12,
+          "text": "Картинки"
+        },
+        {
+          "start": 37,
+          "end": 50,
+          "text": "могут браться"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q36-a5": {
+      "sha256": "0585464e4a555bd236002d53ba183f6a0745fcc73cf02914505a745f16bae92e",
+      "ranges": [
+        {
+          "start": 9,
+          "end": 21,
+          "text": "все варианты"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q37": {
+      "sha256": "97b6f26a1a59bcbd152655b939db44620d771d88e0dc1fb7c0136fe8e9bbfec4",
+      "ranges": [
+        {
+          "start": 49,
+          "end": 64,
+          "text": "свой тип данных"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q37-a1": {
+      "sha256": "c9f1aef3ff7524d8f8aeeaf26efbb07079e33af2307bc115d4471b272e7d13a1",
+      "ranges": [
+        {
+          "start": 22,
+          "end": 39,
+          "text": "определяемые типы"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q38": {
+      "sha256": "71cd4104bf94c2450a22d98b11848d24c931d1d75f6d362ec555f701a86b3289",
+      "ranges": [
+        {
+          "start": 27,
+          "end": 48,
+          "text": "операционной системой"
+        },
+        {
+          "start": 64,
+          "end": 76,
+          "text": "пользователи"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q38-a5": {
+      "sha256": "556c2d996eb5e4af3670947c8d7987e0ca1eced677f00095a93c38547b574395",
+      "ranges": [
+        {
+          "start": 12,
+          "end": 21,
+          "text": "1 и 2 и 3"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q39": {
+      "sha256": "6f63ac7e663f45f32ab0444033a688d9bcfeb8d55ab4f19363e2f772d4c52d01",
+      "ranges": [
+        {
+          "start": 13,
+          "end": 32,
+          "text": "основное назначение"
+        },
+        {
+          "start": 42,
+          "end": 71,
+          "text": "Последовательность\nдокументов"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q39-a1": {
+      "sha256": "c1f6cc03a59bb6c5bbbbf8536470f8a7ae8e0e6eac4add32eca18e84aedbe030",
+      "ranges": [
+        {
+          "start": 17,
+          "end": 25,
+          "text": "контроля"
+        },
+        {
+          "start": 30,
+          "end": 65,
+          "text": "хронологическим порядком проведения"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q40": {
+      "sha256": "793caf3087d23bfdc4bed28248bb65f0877201d6ba542075e61d3e2a3114659a",
+      "ranges": [
+        {
+          "start": 13,
+          "end": 32,
+          "text": "основное назначение"
+        },
+        {
+          "start": 48,
+          "end": 56,
+          "text": "Документ"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q40-a1": {
+      "sha256": "19d175676483af784316808a3039d0f89dd0c9f0600127ad55b1b78b29fa97f8",
+      "ranges": [
+        {
+          "start": 21,
+          "end": 47,
+          "text": "хронологического отражения"
+        },
+        {
+          "start": 58,
+          "end": 84,
+          "text": "событий\nпредметной области"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q41": {
+      "sha256": "84edc03bcb9c12c3e3ae3cadace846ce1042f4217d5d1289114745413d3a802d",
+      "ranges": [
+        {
+          "start": 30,
+          "end": 52,
+          "text": "создать общий реквизит"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q41-a1": {
+      "sha256": "3cfecd97a508b532b518499b134c11f5d465302253a4dd8e6cb1586ac176211e",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 12,
+          "text": "Да, можно"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q42": {
+      "sha256": "7071d9a2966db2945fd498a312dd0adb7ea8253e95e39061c6d21055f92d4956",
+      "ranges": [
+        {
+          "start": 48,
+          "end": 64,
+          "text": "ЖурналДокументов"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q42-a1": {
+      "sha256": "bbcf8e273b866a1644ef75323c886a2f89aed4d23cee0e44b062aa4ecbf60a5a",
+      "ranges": [
+        {
+          "start": 29,
+          "end": 46,
+          "text": "отдельную таблицу"
+        },
+        {
+          "start": 66,
+          "end": 95,
+          "text": "документов определенных видов"
+        },
+        {
+          "start": 207,
+          "end": 234,
+          "text": "упорядоченном по хронологии"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q43": {
+      "sha256": "0c3cd9e663756194fcdc1ab35fb778d06074ca389ab4bca1d7813df2462d0a9c",
+      "ranges": [
+        {
+          "start": 13,
+          "end": 40,
+          "text": "основную функцию нумератора"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q43-a1": {
+      "sha256": "0ed2070e73ef804bf9b00d6b4d1643559480090791ddffb454de1986dd7c80ad",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 21,
+          "text": "Сквозная нумерация"
+        },
+        {
+          "start": 33,
+          "end": 45,
+          "text": "разного вида"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q44": {
+      "sha256": "8131c538c4cd90840adb0da042c167b3b2dce7c2523f00713fe16434718d340a",
+      "ranges": [
+        {
+          "start": 24,
+          "end": 33,
+          "text": "Константа"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q44-a2": {
+      "sha256": "7bbbe0009ecb77fe68551052c94102d591af6bd7a6f6624e3a435fbad9ad9e46",
+      "ranges": [
+        {
+          "start": 30,
+          "end": 71,
+          "text": "постоянной, условно-постоянной\nинформации"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q45": {
+      "sha256": "5400284dbaa0e31b244e01caf27594df8019466ad516758fb77086c1cfd23fca",
+      "ranges": [
+        {
+          "start": 24,
+          "end": 36,
+          "text": "Перечисление"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q45-a5": {
+      "sha256": "39aebd5c26b50d8d1362f1ff8a64ef2a41640de619cb0ceb4c9417638b9b51e4",
+      "ranges": [
+        {
+          "start": 16,
+          "end": 21,
+          "text": "1 и 3"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q46": {
+      "sha256": "33ab42baaf8d6023a4afb05a0a607f71c429f0c68c474033adc09ed6b188e8ba",
+      "ranges": [
+        {
+          "start": 24,
+          "end": 29,
+          "text": "Отчет"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q46-a4": {
+      "sha256": "fe9581adfde9b00262429252a740721a793fa57655e4e9c3f6672d14d6a28404",
+      "ranges": [
+        {
+          "start": 9,
+          "end": 29,
+          "text": "все указанные ответы"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q47": {
+      "sha256": "f2aee2b857e43d3915457f0f270f403cb611b42d28bc85cafe60359b245f6d97",
+      "ranges": [
+        {
+          "start": 4,
+          "end": 23,
+          "text": "Ограничен ли состав"
+        },
+        {
+          "start": 91,
+          "end": 112,
+          "text": "регистратора движения"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q47-a1": {
+      "sha256": "918da93595c1ee24ce6b8d92a417ea9e02c4b75f804c76b036d5b1a4a908b891",
+      "ranges": [
+        {
+          "start": 7,
+          "end": 36,
+          "text": "ограничен специальным списком"
+        },
+        {
+          "start": 128,
+          "end": 159,
+          "text": "отмечены\nна закладке \"Движения\""
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q48": {
+      "sha256": "9a9654bfd19a4e03e7bcb093215b5080b065540d053cfc8cdcf3be7620fec90c",
+      "ranges": [
+        {
+          "start": 46,
+          "end": 58,
+          "text": "копированием"
+        },
+        {
+          "start": 69,
+          "end": 81,
+          "text": "на основании"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q48-a1": {
+      "sha256": "1400e46b461919a11a6faf2b3d29273909abef4e7f3088b92b4236dddd0ce7eb",
+      "ranges": [
+        {
+          "start": 76,
+          "end": 112,
+          "text": "того же типа и с идентичными данными"
+        },
+        {
+          "start": 134,
+          "end": 168,
+          "text": "обычно создает объект другого типа"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q49": {
+      "sha256": "63e0e462ea2fe6632cde2726f7c48f4363ebef4ffea5b4e4edee4201b45adfd9",
+      "ranges": [
+        {
+          "start": 4,
+          "end": 21,
+          "text": "Отчет и обработка"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q49-a1": {
+      "sha256": "91d97a66fd764e7e4f72e78598535e46fd25e0c139c496b6af87a7301d553e51",
+      "ranges": [
+        {
+          "start": 56,
+          "end": 72,
+          "text": "схожую\nструктуру"
+        },
+        {
+          "start": 74,
+          "end": 88,
+          "text": "предполагается"
+        },
+        {
+          "start": 138,
+          "end": 195,
+          "text": "хотя с помощью обработки можно выводить данные и наоборот"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q50": {
+      "sha256": "8785da8074ed68a57902f964e098db2ff2c444d23cd4e268ddf9acdeb0b09887",
+      "ranges": [
+        {
+          "start": 4,
+          "end": 20,
+          "text": "Параметры сеанса"
+        },
+        {
+          "start": 21,
+          "end": 33,
+          "text": "инициируются"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q50-a4": {
+      "sha256": "7fd20582af490a02c1b6ce19ebcca9e08abdc8b8f08d32b9c334ca714b505ca4",
+      "ranges": [
+        {
+          "start": 18,
+          "end": 23,
+          "text": "1 и 2"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q51": {
+      "sha256": "d0b256c5813b762a33001fff0cc1af55d48c9e008854566581cc52d8f534e021",
+      "ranges": [
+        {
+          "start": 54,
+          "end": 76,
+          "text": "Оперативное\nпроведение"
+        },
+        {
+          "start": 100,
+          "end": 109,
+          "text": "Запретить"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q51-a4": {
+      "sha256": "234e156a2a2f52c6349846639976f8957e51f15495b06878af725302bf47e855",
+      "ranges": [
+        {
+          "start": 46,
+          "end": 62,
+          "text": "будущим временем"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q52": {
+      "sha256": "26662871c73bc1f2a6ffccdf32f562b80e88109e178d094877d5a92354c0e715",
+      "ranges": [
+        {
+          "start": 54,
+          "end": 76,
+          "text": "Оперативное\nпроведение"
+        },
+        {
+          "start": 100,
+          "end": 109,
+          "text": "Разрешить"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q52-a1": {
+      "sha256": "2f11faa04d72e7c6850b8d68643d41c29ec6c35418e0b6b60c9b0e7908922dba",
+      "ranges": [
+        {
+          "start": 15,
+          "end": 40,
+          "text": "различать факт проведения"
+        },
+        {
+          "start": 43,
+          "end": 78,
+          "text": "реальном (сейчас) и прошлом\nвремени"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q53": {
+      "sha256": "a419ef17f4dae646c56938441adeca288a33e2a72a34317c7bd5052623c00b3c",
+      "ranges": [
+        {
+          "start": 18,
+          "end": 42,
+          "text": "ограничений прав доступа"
+        },
+        {
+          "start": 70,
+          "end": 78,
+          "text": "шаблонов"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q53-a2": {
+      "sha256": "918aab48f9c6aa834ed04716c940ae402560c73875e727b0c712930fb91f1c36",
+      "ranges": [
+        {
+          "start": 26,
+          "end": 53,
+          "text": "любое количество параметров"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q54": {
+      "sha256": "4e93e487b16821e60df67c7c9fa3653302c9536ed0efa49eb9955c2f2d0b326e",
+      "ranges": [
+        {
+          "start": 43,
+          "end": 68,
+          "text": "на уровне записей и полей"
+        },
+        {
+          "start": 81,
+          "end": 100,
+          "text": "значения параметров"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q54-a3": {
+      "sha256": "f8f48cb69279613ddc730e3c8d92d888a791a2f0a9847bf05dab95ae21983f5f",
+      "ranges": [
+        {
+          "start": 7,
+          "end": 23,
+          "text": "параметры сеанса"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q55": {
+      "sha256": "9873849ac1cd6949dfbb40d12f0736dd8a502830732e8de89dcf6ca1b940fcd9",
+      "ranges": [
+        {
+          "start": 68,
+          "end": 90,
+          "text": "дополнительный словарь"
+        },
+        {
+          "start": 92,
+          "end": 100,
+          "text": "синонимы"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q55-a4": {
+      "sha256": "33a7d34c5d45e32b50cb185a59ae2b16624dd602f72b98efbf5514f58e2d06dc",
+      "ranges": [
+        {
+          "start": 16,
+          "end": 21,
+          "text": "1 и 2"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q56": {
+      "sha256": "aa3c474795212f8a64448ade46480324e18eabebaa80bb3ecae5e472dcceee88",
+      "ranges": [
+        {
+          "start": 36,
+          "end": 56,
+          "text": "отказа от его записи"
+        },
+        {
+          "start": 57,
+          "end": 72,
+          "text": "номер\nдокумента"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q56-a3": {
+      "sha256": "bd2d4a0bd7cb69a619366e97008604a80e9c36bb00318a1870a42dfb16bfc1d7",
+      "ranges": [
+        {
+          "start": 49,
+          "end": 107,
+          "text": "зависит от значения\nсоответствующего свойства конфигурации"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q57": {
+      "sha256": "8af8c01f311636f99a122b28853a3dcc5fdfd9f980fec1153479682a2d63fa69",
+      "ranges": [
+        {
+          "start": 24,
+          "end": 49,
+          "text": "Плана видов характеристик"
+        },
+        {
+          "start": 50,
+          "end": 61,
+          "text": "обязательно"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q57-a1": {
+      "sha256": "278b5361da072c1fde54d4ec1b726d60cb37d309964a616d3e0c8df3a0720711",
+      "ranges": [
+        {
+          "start": 13,
+          "end": 39,
+          "text": "Тип значения характеристик"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q58": {
+      "sha256": "02ee01f55c3fee2a64136c4b047c59e27e485c17c7ddc0ce33271236acfd9523",
+      "ranges": [
+        {
+          "start": 4,
+          "end": 16,
+          "text": "Произвольная"
+        },
+        {
+          "start": 54,
+          "end": 89,
+          "text": "классификация\nобъектов конфигурации"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q58-a2": {
+      "sha256": "fa0e745ba6fd9a700b9de49450b7411f3261e80f78eeca2c6824033c6ef333f3",
+      "ranges": [
+        {
+          "start": 34,
+          "end": 44,
+          "text": "Подсистемы"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q59": {
+      "sha256": "48d42737ee566cf85bbbb55d0a32b78b67d366a01412e219936df3c7386ab6c7",
+      "ranges": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "Роль"
+        },
+        {
+          "start": 33,
+          "end": 41,
+          "text": "отражает"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q59-a3": {
+      "sha256": "3332bad1bc638648d2f40eb6e5037a57bd477e7cc565a0c1b2f7c4a8c8de780c",
+      "ranges": [
+        {
+          "start": 16,
+          "end": 29,
+          "text": "прав действий"
+        },
+        {
+          "start": 70,
+          "end": 105,
+          "text": "присвоения конкретному пользователю"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q60": {
+      "sha256": "0fe5caadbcdd26c8a2e18d40a017efb15ad2e65bd1228d1aaddddcf5b713d1b2",
+      "ranges": [
+        {
+          "start": 13,
+          "end": 26,
+          "text": "СУБД работает"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q60-a5": {
+      "sha256": "4a080ec9ed3ee2430ab1dff6e9e7d7776ec8db03c75c4995418dec7e32063afe",
+      "ranges": [
+        {
+          "start": 37,
+          "end": 44,
+          "text": "IBM DB2"
+        },
+        {
+          "start": 46,
+          "end": 83,
+          "text": "Oracle Database, файловая база\nданных"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q61": {
+      "sha256": "cba7f8510311041cfc439ea149e0bbbdaf052ae3d7b91438d8eb73046e34a641",
+      "ranges": [
+        {
+          "start": 48,
+          "end": 92,
+          "text": "какому документу\nпринадлежит запись регистра"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q61-a1": {
+      "sha256": "3606c146fb433fb02d442efc41bcc13a0af840e29c539d77bff26e960065731f",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 14,
+          "text": "Регистратор"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q62": {
+      "sha256": "d98b732442c1e709e3523fa20f58a00014cf5d3d9076389b7377d06e0f80f45a",
+      "ranges": [
+        {
+          "start": 34,
+          "end": 62,
+          "text": "разработка бизнес-приложений"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q62-a1": {
+      "sha256": "407a206a2795739c0ef03b42b40ca5235df4f9a4cb81634e5c3dd8bcc099f91b",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 28,
+          "text": "Технологическая платформа"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q63": {
+      "sha256": "6eef833ffa6bb9f3edac1bdc46d7b14c32a7f7c055444e6c2fa3bff106141b08",
+      "ranges": [
+        {
+          "start": 20,
+          "end": 58,
+          "text": "неинициализированному параметру сеанса"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q63-a2": {
+      "sha256": "8916761813c412e95f81b6bf9881fb58f7edd8084b4e8c6a5a43c005e0f0c67b",
+      "ranges": [
+        {
+          "start": 30,
+          "end": 57,
+          "text": "Установка параметров сеанса"
+        },
+        {
+          "start": 62,
+          "end": 101,
+          "text": "если\nзначение не будет инициализировано"
+        },
+        {
+          "start": 103,
+          "end": 127,
+          "text": "будет вызвано исключение"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q64": {
+      "sha256": "61d25bb8cd4b211de7ba9e055a7306847c6919a4f4f68af15f5c1a743818c93b",
+      "ranges": [
+        {
+          "start": 12,
+          "end": 30,
+          "text": "информационных баз"
+        },
+        {
+          "start": 44,
+          "end": 72,
+          "text": "одной и той же\nконфигурацией"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q64-a3": {
+      "sha256": "ebadd841decba53b206e77cb03d98e915ff931e91b113f7660f13e7aa151cb76",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 16,
+          "text": "Неограниченно"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q65": {
+      "sha256": "0c415b47252a08d302605063293bfc3e38cc2c6f1e166a3af01ba61890a0fc1a",
+      "ranges": [
+        {
+          "start": 4,
+          "end": 24,
+          "text": "Сколько конфигураций"
+        },
+        {
+          "start": 46,
+          "end": 64,
+          "text": "прикладном решении"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q65-a4": {
+      "sha256": "3053223d4d34f28a4cfbc7898e2f5a4b58288f7676624af178e7d7e82207ce88",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 17,
+          "text": "Сколько угодно"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q66": {
+      "sha256": "9fdf560b939af91fa70c3e8134090c496d4638f7b80aeef2df6d70ba39ca01af",
+      "ranges": [
+        {
+          "start": 15,
+          "end": 30,
+          "text": "Табличная часть"
+        },
+        {
+          "start": 43,
+          "end": 63,
+          "text": "подчиненных объектов"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q66-a1": {
+      "sha256": "b002b0c5c01b20ec07cd6d2bb9de63c71479751e783f32c4e1dad3f913455ac4",
+      "ranges": [
+        {
+          "start": 3,
+          "end": 12,
+          "text": "реквизиты"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q67": {
+      "sha256": "f2ce882e08b51521f06b64be7f0827a3426140a2f00cb59bb9b5151b1a18f59b",
+      "ranges": [
+        {
+          "start": 13,
+          "end": 28,
+          "text": "бинарных данных"
+        },
+        {
+          "start": 29,
+          "end": 43,
+          "text": "в конфигурации"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q67-a2": {
+      "sha256": "4de4fbba8518d621cc48e60edecb647974c5eb7104b62700cf42d95cbc903314",
+      "ranges": [
+        {
+          "start": 15,
+          "end": 32,
+          "text": "с помощью макетов"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q68": {
+      "sha256": "e02811a6290641c14092eb0775ffcc8c926d7ade02dc2a4a32ca814165792a82",
+      "ranges": [
+        {
+          "start": 25,
+          "end": 57,
+          "text": "удалить предопределенный элемент"
+        },
+        {
+          "start": 58,
+          "end": 73,
+          "text": "в\nконфигураторе"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q68-a3": {
+      "sha256": "3405231250d85d41b38b2a43c1e916eda9ed329c3b2f2950ba4e95c1583a9230",
+      "ranges": [
+        {
+          "start": 41,
+          "end": 60,
+          "text": "помечен на удаление"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q69": {
+      "sha256": "f7b4ef063bd133d9a00606aefcf33ceea46498653016e8fe0ca3ea9786a95b42",
+      "ranges": [
+        {
+          "start": 25,
+          "end": 57,
+          "text": "удалить предопределенный элемент"
+        },
+        {
+          "start": 58,
+          "end": 81,
+          "text": "в режиме\n1С:Предприятие"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q69-a3": {
+      "sha256": "93d26fb1dae03bb92d36c401df1879bedafeaa302765c4c89eb9fb5fb0f4e2a3",
+      "ranges": [
+        {
+          "start": 17,
+          "end": 47,
+          "text": "удален только в 1С:Предприятие"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q70": {
+      "sha256": "f1c2fdcfaffb1ce3add7b98a603adc2032777c878476e88fa17a4d2f87212796",
+      "ranges": [
+        {
+          "start": 8,
+          "end": 31,
+          "text": "разрешено разработчикам"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q70-a4": {
+      "sha256": "8fa2cbe9545afa3a5a1472a60c514b873e8c3e8157991e391b2271fb0f42db78",
+      "ranges": [
+        {
+          "start": 20,
+          "end": 25,
+          "text": "1 и 2"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q71": {
+      "sha256": "cf2067f3d03d59c91e417ca9b631c9d3efff43401bd37d43e9786d67f22fd875",
+      "ranges": [
+        {
+          "start": 53,
+          "end": 83,
+          "text": "редактировании\nнового элемента"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q71-a4": {
+      "sha256": "4c7f87d4151be90703ae270fae646916808c2bf4107ce0f50daacec70cdbc115",
+      "ranges": [
+        {
+          "start": 16,
+          "end": 21,
+          "text": "1 и 3"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q72": {
+      "sha256": "5e09348df26301cbd7d19fb38950828f56022a6434e7334c8f815ea6053393c7",
+      "ranges": [
+        {
+          "start": 53,
+          "end": 97,
+          "text": "редактировании\nсуществующего в базе элемента"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q72-a5": {
+      "sha256": "0585464e4a555bd236002d53ba183f6a0745fcc73cf02914505a745f16bae92e",
+      "ranges": [
+        {
+          "start": 9,
+          "end": 21,
+          "text": "все варианты"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q73": {
+      "sha256": "066462f2fc57bfa4aec450290e1c9f015e3f56008b873ae5e618f7d44081098a",
+      "ranges": [
+        {
+          "start": 23,
+          "end": 49,
+          "text": "непосредственного удаления"
+        },
+        {
+          "start": 50,
+          "end": 76,
+          "text": "предопределенных\nэлементов"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q73-a2": {
+      "sha256": "b432655c7138df871093eec30c0c949140789cee362f729bc2746cc751af62f8",
+      "ranges": [
+        {
+          "start": 76,
+          "end": 115,
+          "text": "Интерактивное удаление предопределенных"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q74": {
+      "sha256": "218a4b2f7c85a42491961438108876b3ab55264bf6d4cf8f668e8115ccfede9b",
+      "ranges": [
+        {
+          "start": 29,
+          "end": 50,
+          "text": "изменять интерактивно"
+        },
+        {
+          "start": 53,
+          "end": 66,
+          "text": "конфигураторе"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q74-a4": {
+      "sha256": "549b92a4e7fcd5827e839f7e545c84a29c6bdee9f11d6ebf79c64c9e88a01c11",
+      "ranges": [
+        {
+          "start": 12,
+          "end": 19,
+          "text": "1 или 2"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q75": {
+      "sha256": "4e7b7c80d15f30de89cebd4e92b0dfbfb50625f7c7597314264f5a1f82a815bd",
+      "ranges": [
+        {
+          "start": 18,
+          "end": 26,
+          "text": "значения"
+        },
+        {
+          "start": 49,
+          "end": 61,
+          "text": "Перечисление"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q75-a1": {
+      "sha256": "045499beedd2bebf0f364de76c562937364181601c906fe3c9bc1f7fd7f0963a",
+      "ranges": [
+        {
+          "start": 15,
+          "end": 40,
+          "text": "имя, синоним, комментарий"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q76": {
+      "sha256": "0e1a92f7f0109a85ded95dfb0beb5002220d894af085fa87630dc4c1d25deb26",
+      "ranges": [
+        {
+          "start": 14,
+          "end": 28,
+          "text": "История данных"
+        },
+        {
+          "start": 70,
+          "end": 93,
+          "text": "хранение истории данных"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q76-a5": {
+      "sha256": "7fe7ea791a11aba6eb6575f19bdaa52f4706371e461a0641fffe7914002eadd7",
+      "ranges": [
+        {
+          "start": 12,
+          "end": 22,
+          "text": "1 и 2, и 3"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q77": {
+      "sha256": "1a40369e84adfdca08d5d68e3c00610f1e13be4aa8c42d855b02ed9b7d204d0b",
+      "ranges": [
+        {
+          "start": 4,
+          "end": 21,
+          "text": "Для использования"
+        },
+        {
+          "start": 33,
+          "end": 47,
+          "text": "История данных"
+        }
+      ],
+      "status": "reviewed"
+    },
+    "c1-q77-a4": {
+      "sha256": "549b92a4e7fcd5827e839f7e545c84a29c6bdee9f11d6ebf79c64c9e88a01c11",
+      "ranges": [
+        {
+          "start": 12,
+          "end": 19,
+          "text": "1 или 2"
+        }
+      ],
+      "status": "reviewed"
+    }
+  },
+  "notes": {
+    "c1-q1": "Серии кодов задают область уникальности: весь справочник, подчинение или подчинение владельцу. В этом вопросе подходят все перечисленные области.",
+    "c1-q2": "Редактирование конкретного экземпляра связывается с формой объекта. Форма списка и сам объект информационной базы — другие понятия.",
+    "c1-q3": "Опора — знак ! перед словом: в этом вопросе он отличает поиск по синонимам от поиска с ошибкой (~) и остальных вариантов записи.",
+    "c1-q4": "Два назначения: ускорить отладку и добавить функциональность вне основной конфигурации. Не путать с изменением обработки пользователем в режиме Предприятия.",
+    "c1-q5": "Запоминай тройку: обработка → epf, отчёт → erf, конфигурация → cf. В исходном варианте «сf» первая буква выглядит как латинская, но записана кириллицей; текст сохранён буквально.",
+    "c1-q6": "Внешняя обработка включается и как отчёт, и как обработка. Соседний вопрос про внешний отчёт отличается оговоркой о потере функциональности.",
+    "c1-q7": "Доступны оба варианта включения, но здесь важна оговорка о возможной потере функциональности. Именно она отличает ответ от предыдущего вопроса.",
+    "c1-q8": "Конфигурация описывает устройство и поведение приложения; учётные данные из следующего вопроса хранятся в информационной базе.",
+    "c1-q9": "Связка для пары вопросов: структура и логика → конфигурация; хранящиеся учётные данные → информационная база.",
+    "c1-q10": "Обычные формы → критерии отбора. Сохранён вид формы: именно он меняет ответ в паре с вопросом 11.",
+    "c1-q11": "Управляемые формы → платформа уже поддерживает отбор. Не переносить сюда ответ «критерии отбора» из вопроса про обычные формы.",
+    "c1-q12": "Пользователь выбирает язык из языков, описанных в метаданных «Языки». Это не список дополнительных интерфейсов и не произвольный список языков платформы.",
+    "c1-q13": "Запрет пользовательского непосредственного удаления задаётся правом роли «Интерактивное удаление». Простое право «Удаление» и свойства конфигурации здесь не подходят.",
+    "c1-q14": "По отметке источника: клиентское приложение и мобильный клиент. Это вопрос именно о сетевых ключах; в вопросе 27 об аппаратном ключе состав ответа другой.",
+    "c1-q15": "Предопределённые значения: справочники плюс три плана — характеристик, счетов и расчёта. Документы в этот перечень не входят.",
+    "c1-q16": "В рамках данного банка толстый клиент: использование, отладка и разработка. Отличие от тонкого клиента — наличие разработки.",
+    "c1-q17": "Тонкий клиент: использование и отладка. Разработку из третьего варианта исключаем; этим ответ отличается от вопроса о толстом клиенте.",
+    "c1-q18": "Ключевой признак — отсутствие собственной объектной природы у подчинённых сущностей. Частица «не» меняет смысл и входит в выделение.",
+    "c1-q19": "Нечёткий поиск с ошибкой → тильда ~. Поиск по синонимам в вопросе 3 → восклицательный знак !.",
+    "c1-q20": "Следи за направлением связи: одна Задача может использоваться несколькими Бизнес-процессами. Обратная формулировка в другом варианте не равнозначна.",
+    "c1-q21": "Раздели ответ на две части: MS SQL → рабочий сервер Windows; другие СУБД → Windows или Linux. Важно сохранить обе части ограничения.",
+    "c1-q22": "Состав конфигурации → объекты конфигурации. Не путать с объектами языка для алгоритмов и объектами информационной базы для данных.",
+    "c1-q23": "Опора — общие реквизиты. Это не создание обычной группы непосредственно в списке пользователей.",
+    "c1-q24": "Два способа: программная префиксация и разделение данных. «И/или» сохраняет возможность использовать любой из способов.",
+    "c1-q25": "Подчинение может быть группам, элементам, а также группам и элементам. Поэтому выбирается весь перечень.",
+    "c1-q26": "Наличие групп определяется видом иерархии «групп и элементов», а не числом уровней. Иерархия одних элементов не даёт этот ответ.",
+    "c1-q27": "По источнику аппаратным ключом защищены клиентское приложение и сервер 1С. Не путать с вопросом 14 о сетевых ключах: там отмечены клиентское приложение и мобильный клиент.",
+    "c1-q28": "Алгоритм описывается средствами встроенного языка. Это третья часть связки: конфигурация — описание приложения, информационная база — данные, язык — алгоритмы.",
+    "c1-q29": "Граница задаётся моментом времени, с которого перепроведение восстанавливает актуальность учёта. Не заменять момент времени просто датой или ссылкой на документ.",
+    "c1-q30": "У ресурса регистра сведений возможны все перечисленные категории: примитивные и ссылочные типы, хранилище значений, составной тип.",
+    "c1-q31": "Вопрос сформулирован через отрицание, а ответ его снимает: перечисленные мобильный, толстый, тонкий и веб-клиент существуют.",
+    "c1-q32": "Речь о количестве видов документов при конфигурировании. Фиксированного лимита 50, 150 или 256 в отмеченном ответе нет.",
+    "c1-q33": "Ответ без дополнительной оговорки: количество не ограничено. Не выбирать почти такую же фразу с добавленным лимитом десяти ссылочных реквизитов.",
+    "c1-q34": "Табличных частей может быть больше одной; ответ не зависит от файлового или клиент-серверного режима. Не переносить на них предполагаемый лимит из отвлекающих вариантов.",
+    "c1-q35": "Среди предложенных здесь трёх конфигураций изменяется основная. В вопросе 74 такая же формулировка, но добавлена конфигурация расширения — учитывай состав вариантов.",
+    "c1-q36": "Три источника картинок: библиотека платформы, библиотека конфигурации и файловая система. Ответ не ограничивается библиотеками.",
+    "c1-q37": "Свой именованный тип → определяемые типы. Общие реквизиты и обязательное использование расширения — отвлекающие ответы.",
+    "c1-q38": "Пользовательские приложения в данном вопросе рассматриваются для всех трёх ОС: Windows, Linux и Mac OS X.",
+    "c1-q39": "Последовательность предназначена для контроля хронологического порядка проведения. Это не прямой запрет заднего числа и не список документов, проведённых задним числом.",
+    "c1-q40": "Документ отражает события во времени. Условно-постоянная информация и только печать либо только движения — более узкие или другие назначения.",
+    "c1-q41": "Общие реквизиты доступны в платформе; в отмеченном ответе нет условия об обязательном включении или отключении разделения данных.",
+    "c1-q42": "Журнал объединяет документы нескольких определённых видов по общности событий и хранится отдельной таблицей. Отличия от отвлекающих вариантов: не один вид, не обязательно все документы и не представление без таблицы.",
+    "c1-q43": "Нумератор объединяет разные виды документов общей сквозной нумерацией. Простые настройки типа номера и префиксация — другие задачи.",
+    "c1-q44": "Константа хранит постоянную или редко меняющуюся информацию. Название не означает невозможность изменить значение — это ловушка первого варианта.",
+    "c1-q45": "Два признака перечисления: значения задаются в Конфигураторе, возможны формы списка и выбора. Формулировка о хранении различных типов значений не включена.",
+    "c1-q46": "В источнике отмечены все три возможности взаимодействия отчёта с внешней обработкой: сохранение, сравнение и добавление из внешней обработки.",
+    "c1-q47": "Разрешённые регистры перечисляются на закладке «Движения». Ограничение задаёт список, а не правило «только один регистр» или «только один тип регистров».",
+    "c1-q48": "Копирование → тот же тип и копия данных; ввод на основании → обычно другой тип и функционально связанные данные. Оговорка «обычно» сохранена.",
+    "c1-q49": "Различие назначения условное: обычно отчёт выводит, обработка изменяет. Слова «предполагается» и оговорка исключают ответ с категоричным «исключительно».",
+    "c1-q50": "Инициализация возможна при запуске и при первом программном обращении. Интерактивная инициализация пользователем не входит в отмеченную комбинацию.",
+    "c1-q51": "Будущее время → оперативное проведение запрещают. Не подменять будущее прошлым временем: именно такая подмена есть среди вариантов.",
+    "c1-q52": "Разрешение нужно, когда различают оперативное «сейчас» и неоперативное прошлое проведение. Это не требование проводить документы только сейчас.",
+    "c1-q53": "Для шаблонов ограничений важно отсутствие лимита в один параметр. Выделено количество, по которому расходятся похожие варианты.",
+    "c1-q54": "Параметры условий ограничения доступа берутся из параметров сеанса. Не из экспортных переменных модуля, констант или произвольного обработчика.",
+    "c1-q55": "Дополнительный словарь можно включить как константу или общий макет. Параметр сеанса в эту пару не входит.",
+    "c1-q56": "При отказе от записи повторное использование номера определяется настройкой. Поэтому безусловные «может» и «не может», а также «номер ещё не назначался» не подходят.",
+    "c1-q57": "Обязателен тип значения характеристик. «Дополнительные значения характеристик» — другое свойство, которое здесь не требуется заполнять обязательно.",
+    "c1-q58": "Группировка объектов по прикладным механизмам → подсистемы. Не вымышленная классификационная группа и не схема порядковых номеров.",
+    "c1-q59": "Роль — совокупность прав на действия. Это шире списка видимых объектов и отличается от должности сотрудника или набора параметров пользователя.",
+    "c1-q60": "В отмеченном перечне есть SQL Server, PostgreSQL, IBM DB2, Oracle и файловая база. Особенно легко потерять IBM DB2 или файловый вариант; выделены эти отличия полного списка.",
+    "c1-q61": "Документ, породивший запись регистра, определяется свойством «Регистратор». Не путать с произвольным реквизитом ДокументСсылка.",
+    "c1-q62": "Средство разработки приложения → технологическая платформа. Конфигурация описывает результат разработки, а информационная база хранит данные.",
+    "c1-q63": "Два шага: сначала обработчик установки параметров, затем исключение, если значение всё ещё не задано. Не просто немедленное исключение и не автоматическое Неопределено.",
+    "c1-q64": "Одна конфигурация может использоваться в неограниченном числе информационных баз. Не ограничиваться парой «рабочая и демонстрационная».",
+    "c1-q65": "Источник отмечает отсутствие фиксированного количества конфигураций. Не выбирать одну, две или три только по знакомым названиям основных конфигураций.",
+    "c1-q66": "У табличной части подчинены реквизиты. Не вложенные табличные части и не специальные формы табличных частей.",
+    "c1-q67": "Важное уточнение — хранение именно в конфигурации. Здесь это макеты; «Хранилище значений» в константах и реквизитах относится к хранению данных базы.",
+    "c1-q68": "Удаление определения в Конфигураторе → пометка на удаление элемента в режиме Предприятия. Не путать с удалением элемента непосредственно в Предприятии.",
+    "c1-q69": "Удаление в режиме Предприятия затрагивает элемент только там; его определение в Конфигураторе не удаляется. Это отличие от предыдущего вопроса.",
+    "c1-q70": "Можно менять функциональность типовых решений и создавать свои решения. Изменение компонентов самой технологической платформы в ответ не входит.",
+    "c1-q71": "Новый элемент → данные реквизитов и строки табличных частей. В отмеченном ответе нет ссылки, отличающей следующий вопрос о существующем элементе.",
+    "c1-q72": "У существующего элемента рассматриваются и данные реквизитов, и ссылка, и строки табличных частей. Ключевое отличие условия — «существующего».",
+    "c1-q73": "Для предопределённых элементов выделено отдельное интерактивное право. Не заменять его общим «Интерактивное удаление» из вопроса 13.",
+    "c1-q74": "В этом наборе вариантов изменяемы основная конфигурация и конфигурация расширения. База данных не входит. В вопросе 35 вариант расширения отсутствует — формулировки вопросов совпадают.",
+    "c1-q75": "Для значения перечисления задаются имя, синоним и комментарий. Собственный состав реквизитов и табличных частей значению не задают.",
+    "c1-q76": "Хранение истории настраивается вплоть до реквизита, включая объект и табличную часть. Важен самый детальный уровень, а не только объект целиком.",
+    "c1-q77": "Источник отмечает альтернативу: настройка объекта либо настройка средствами языка. Ключевое слово «или» отличает этот ответ от требования одновременно выполнить оба действия."
+  }
+}

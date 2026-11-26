@@ -1,0 +1,27 @@
+{
+  "name": "1c-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build && node scripts/build-sw.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "validate": "node --experimental-strip-types scripts/validate.ts",
+    "test:ui": "node scripts/test-ui.mjs",
+    "test:pwa": "node --test tests/pwa.test.mjs"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.28",
+    "@types/react-dom": "18.3.7",
+    "typescript": "6.0.3",
+    "vite": "7.3.7",
+    "jsdom": "25.0.1",
+    "esbuild": "0.28.2"
+  }
+}
